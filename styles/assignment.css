@@ -19,3 +19,12 @@ nav{
 .list-3{
     color: #0D1321;
 }
+/* button */
+.btn-ptimary{
+    background-color: #0D1321;
+    color: white;
+    padding: 21px 24px;
+
+   
+    
+}
