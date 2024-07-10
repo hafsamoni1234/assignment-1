@@ -1,0 +1,21 @@
+/* nav style */
+nav{
+
+    display: flex;
+}
+.nav-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.list{
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 800;
+}
+.list-2{
+    color: #0D1321;
+}
+.list-3{
+    color: #0D1321;
+}
