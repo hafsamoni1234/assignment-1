@@ -116,6 +116,7 @@ font-family:"Azeret Mono", monospace ;
     background-color: #ADC8F7;
 }
 .ww-d{
+    display: flex;
     background-color: white;
     text-align: left;
     padding: 48px;
@@ -137,9 +138,15 @@ font-family:"Azeret Mono", monospace ;
     border: 1px solid #0D1321 ;
     padding: 12px 20px;
 }
+.ww-d-img{
+    
+}
 
 .video{
     text-align: center;
+    max-width: ;
+    border-radius: 16px;
+    
 }
 .banner-content{
     display: flex;
@@ -151,6 +158,34 @@ font-family:"Azeret Mono", monospace ;
 .btn-li{
     text-decoration: none;
     list-style: none;
+}
+.target{
+    text-align: center;
+}
+.target-container{
+display: flex;
+align-items: flex-start;
+flex-direction: row;
+font-family:"Azeret Mono", monospace ;
+margin: 50px auto;
+
+}
+.trgt{
+
+}
+.trgt-title{
+font-size: 32px;
+font-weight: 800;
+}
+.trgt-description{
+font-size: 18px;
+font-weight:400 ;
+}
+.button-lm{
+    color: black;
+}
+.carbox{
+    margin: 50px auto;
 }
 
 
