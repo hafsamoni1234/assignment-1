@@ -4,20 +4,35 @@
   
   font-style: normal;
 }
-.header{
+
+/* .header{
     background-image: url('../assets/Hero-bg.png');
-    background-position: left top;
-}
+    width: 1920px;
+    height: 700px;
+    top: 5px;
+    bottom: 4462px;
+    right: 20px;
+    left: 0;
+    } */
 
 /* nav style */
 nav{
    
-width: 1140px
+width: 1140px;
+margin: 0 auto;
+ 
    }
 .banner-head{
     color: #0D1321;
     font-size: 48px;
     font-weight: 800;
+}
+.banner-description{
+    font-size: 18px;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+
+
 }
 .list{
     color: #0D1321;
@@ -46,7 +61,9 @@ nav ul li{
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
+    text-decoration: none;
     list-style: none;
+    
 }
 .list-2{
     font-size: 20px;
@@ -59,10 +76,81 @@ nav ul li{
 }
 .banner-dp{
     width: 240px;
-    justify-content: center;
+   
 }
 .banner{
+    background-image: url('../assets/Hero-bg.png');
     display: flex;
-    justify-content: center;
-    direction: column;
+    align-items: center;
+    
+    flex-direction: column;
+
 }
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    font-family: "Azeret Mono", monospace;
+}
+.section-description{
+font-size: 18px;
+color:#0D1321 ;
+font-family:"Azeret Mono", monospace ;
+}
+.main{
+    
+}
+/* .about{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 74px 150px ;
+    text-align: center;
+    color: #ADC8F7;
+
+} */
+.about-bg{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 74px 150px ;
+    text-align: center;
+    background-color: #ADC8F7;
+}
+.ww-d{
+    background-color: white;
+    text-align: left;
+    padding: 48px;
+}
+.ww-d1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321;
+}
+.ww-d1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+}
+.ww-d1 button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    border: 1px solid #0D1321 ;
+    padding: 12px 20px;
+}
+
+.video{
+    text-align: center;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 998px;
+    text-align: center;
+}
+.btn-li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
